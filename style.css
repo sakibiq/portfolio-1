@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 50px 200px;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+  /* padding: 10px; */
+  margin: 35px;
+}
+
+.mary-r {
+  color: #ff7b54;
+}

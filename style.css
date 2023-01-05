@@ -3,12 +3,17 @@
   font-family: 'Open Sans', sans-serif;
   padding: 0;
 }
-
+.full-header {
+  background: #fff8f3;
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 header {
   display: flex;
   justify-content: space-between;
   /* padding: 20px; */
-  margin: 20px 200px;
+  margin: 0 200px;
   align-items: center;
 }
 header ul {
@@ -19,8 +24,12 @@ header li {
   list-style: none;
   /* padding: 10px; */
   margin: 35px;
+  font-size: 20px;
 }
 
+.mary {
+  font-size: 45px;
+}
 .mary-r {
   color: #ff7b54;
 }
@@ -39,4 +48,37 @@ header li {
 .banner {
   margin: 0px 200px;
   display: flex;
+  align-items: center;
+}
+.banner-first {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.myname {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.banner-para {
+  color: #1a0000;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.cv-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  height: 64px;
+  border-radius: 5px;
+  color: #ff7b54;
+  /* width: 180px; */
+  font-weight: 700;
+  font-size: 20px;
+  border-color: #ff7b54;
+  padding: 15px 35px;
 }

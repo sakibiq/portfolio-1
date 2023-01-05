@@ -8,10 +8,12 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin: 50px 200px;
+  margin: 20px 200px;
+  align-items: center;
 }
 header ul {
   display: flex;
+  align-items: center;
 }
 header li {
   list-style: none;
@@ -21,4 +23,15 @@ header li {
 
 .mary-r {
   color: #ff7b54;
+}
+
+.btn-primary {
+  height: 64px;
+  border-radius: 5px;
+  background: #ff7b54;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 15px 35px;
 }
